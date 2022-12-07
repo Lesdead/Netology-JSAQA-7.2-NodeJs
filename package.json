@@ -1,0 +1,30 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eslint": "eslint --fix ./index.js",
+    "prettier": "prettier --write ./index.js",
+    "index": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lesdead/JSA-NodeJs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lesdead/JSA-NodeJs/issues"
+  },
+  "homepage": "https://github.com/Lesdead/JSA-NodeJs#readme",
+  "dependencies": {
+    "@gitkraken/gitkraken-components": "^1.0.0-rc.13",
+    "beautify": "^0.0.8",
+    "eslint": "^8.23.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.7.1"
+  }
+}
